@@ -71,7 +71,7 @@ public class Starter extends Worker {
   @Override
   public void run() {
     //main params
-    String developmentCriterion = a("devoCriterion", "distance");
+    String developmentCriterion = a("devoCriterion", "time");
     boolean distanceBasedDevelopment = developmentCriterion.startsWith("d");
     double episodeTime = d(a("episodeTime", "60"));
     double stageMaxTime = d(a("stageMaxTime", "20"));
