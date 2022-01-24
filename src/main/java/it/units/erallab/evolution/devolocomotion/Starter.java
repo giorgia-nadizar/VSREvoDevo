@@ -90,7 +90,7 @@ public class Starter extends Worker {
     List<String> terrainNames = l(a("terrain", "flat"));
     List<String> devoFunctionNames = l(a("devoFunction", "devoPhases-1.0-5-1<directNumGrid"));
     List<String> targetSensorConfigNames = l(a("sensorConfig", "uniform-t+a-0.01"));
-    List<String> evolverNames = l(a("evolver", "ES-16-0.35"));
+    List<String> evolverNames = l(a("evolver", "ES-16-0.35-f"));
     String lastFileName = a("lastFile", null);
     String bestFileName = a("bestFile", null);
     String validationFileName = a("validationFile", null);
