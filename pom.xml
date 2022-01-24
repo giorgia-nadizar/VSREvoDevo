@@ -37,6 +37,8 @@
             <groupId>it.units.malelab</groupId>
             <artifactId>JGEA</artifactId>
             <version>1.7.4</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/libs/JGEA.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.google.guava</groupId>
