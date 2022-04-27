@@ -19,3 +19,16 @@ This will start the evolution of a development function for VSRs with the defaul
 One can freely play with the parameters, which are mostly self-explanatory, either changing the source code or by using the corresponding key words from command line.
 The most important ones are the `devoFunction` parameter, which describes the type of representation, and the `evolver` parameter, related to the EA used to perform the optimization.
 It is fundamental that these two parameters refer to the same genotype, e.g., both `devoFunction` and `evolver` should operate on a `List<Double>` genotype, otherwise an `Exception` is thrown.
+
+## Bibliography
+Nadizar, Medvet, Miras. "On the Schedule for Morphological Development of Evolved Modular Soft Robots", European Conference on Genetic Programming (Part of EvoStar), 2022
+```
+@inproceedings{nadizar2022schedule,
+  title={On the Schedule for Morphological Development of Evolved Modular Soft Robots},
+  author={Nadizar, Giorgia and Medvet, Eric and Miras, Karine},
+  booktitle={European Conference on Genetic Programming (Part of EvoStar)},
+  pages={146--161},
+  year={2022},
+  organization={Springer}
+}
+```
